@@ -19,7 +19,7 @@
 \hwkDueTime{11:59:00}
 \hwkClass{ENAE488X - 0101}
 \hwkClassTime{17:00:00}
-\hwkInstructor{Dr. David Akin}
+\hwkInstructor{Dr. Akin}
 \hwkAuthor{Vai Srivastava}
 \hwkCompletionDate{\today}
 
@@ -29,11 +29,18 @@
 
 \pagebreak
 
-\begin{hwkProblem}{1}{Parts \textit{(\# pts.)}} \label{hwk:p01}
+\section*{Overview} \label{sec:overview}
 
+In the \textit{2001: A Space Odyssey} video clip of propulsive glide shown in \href{https://github.com/vaisriv/uni/blob/main/26s/ENAE488X/docs/lectures/lec02.pdf}{Lecture \# 2}, the vehicle was traveling from Clavius to Tycho, a distance of \qty{470}{\km}. For the time being, assume both departure and destination are at the same elevation, that the Moon is essentially flat, and that the propulsion systems use \ce{LOX}/\ce{LH2} propellants with an exhaust velocity \( v_{e} = \qty{4500}{\m\per\s} \). Lunar gravity is \qty{1.622}{\m\per\s\squared}.
+
+\begin{hwkProblem*}{1}{} \label{hwk:p01}
+
+	Assuming this mission was an optimum propulsive glide,
 	\begin{enumerate}[label=\alph*.]
-		\item \label{hwk:p01a} Instructions
-		\item \label{hwk:p01b} Instructions
+		\item \label{hwk:p01a} What horizontal velocity would the vehicle have?
+		\item \label{hwk:p01b} How long would the flight take (in minutes)?
+		\item \label{hwk:p01c} What would the total \( \Delta v \) be for this trip?
+		\item \label{hwk:p01d} If the vehicle has an empty mass of \qty{4000}{\kg}, how much propellant would be required for this trip?
 	\end{enumerate}
 
 	\hwkSol{} \label{hwk:s01}
@@ -46,27 +53,89 @@
 
 	Answer
 
-\end{hwkProblem}
+	\hwkPart{} \label{hwk:s01c}
 
-\begin{hwkProblem}{2}{Code \textit{(\# pts.)}} \label{hwk:p02}
+	Answer
 
-	Instructions
+	\hwkPart{} \label{hwk:s01d}
+
+	Answer
+
+\end{hwkProblem*}
+
+\begin{hwkProblem*}{2}{} \label{hwk:p02}
+
+	If the vehicle made the trip using a single ballistic hop,
+	\begin{enumerate}[label=\alph*.]
+		\item \label{hwk:p02a} What \( \Delta v \) would be required for the initial launch?
+		\item \label{hwk:p02b} How long would the flight take (in minutes)?
+		\item \label{hwk:p02c} What would be the maximum height the vehicle reaches between departure and destination?
+		\item \label{hwk:p02d} What is the total \( \Delta v \) for this trip?
+		\item \label{hwk:p02e} If the vehicle has an empty mass of \qty{4000}{\kg}, how much propellant would be required for this trip?
+	\end{enumerate}
 
 	\hwkSol{} \label{hwk:s02}
 
-	\begin{figure}[H] \label{fig:s02}
-		\begin{center}
-			\includegraphics[width=0.95\textwidth]{./outputs/figures/s02.png}
-		\end{center}
-		\caption{Example}
-	\end{figure}
+	\hwkPart{} \label{hwk:s02a}
 
-	\inputminted{python}{./outputs/text/s02.txt}
+	Answer
 
-	\hwkCode{} \label{code:s02}
+	\hwkPart{} \label{hwk:s02b}
 
-	See the \href{https://www.github.com/vaisriv/enae488x-hw02/blob/main/src/index.py#L1}{Python code} for this problem.
+	Answer
 
-\end{hwkProblem}
+	\hwkPart{} \label{hwk:s02c}
+
+	Answer
+
+	\hwkPart{} \label{hwk:s02d}
+
+	Answer
+
+	\hwkPart{} \label{hwk:s02e}
+
+	Answer
+
+\end{hwkProblem*}
+
+\begin{hwkProblem*}{3}{} \label{hwk:p03}
+
+	The Moon is actually a sphere with a radius of \qty{1738}{\km}. Repeat the analysis of \hyperref[hwk:p01]{Problem 1} assuming a spherical planet instead of a flat one.
+	\begin{enumerate}[label=\alph*.]
+		\item \label{hwk:p03a} What horizontal velocity would the vehicle have?
+		\item \label{hwk:p03b} How long would the flight take (in minutes)?
+		\item \label{hwk:p03c} What would the total \( \Delta v \) be for this trip?
+		\item \label{hwk:p03d} If the vehicle has an empty mass of \qty{4000}{\kg}, how much propellant would be required for this trip?
+	\end{enumerate}
+
+	\hwkSol{} \label{hwk:s03}
+
+	\hwkPart{} \label{hwk:s03a}
+
+	Answer
+
+	\hwkPart{} \label{hwk:s03b}
+
+	Answer
+
+	\hwkPart{} \label{hwk:s03c}
+
+	Answer
+
+	\hwkPart{} \label{hwk:s03d}
+
+	Answer
+
+\end{hwkProblem*}
+
+\begin{hwkProblem*}{4}{} \label{hwk:p04}
+
+	A Mars aircraft uses a jet engine which burns \ce{CO2} of the atmosphere with \ce{H2} fuel carried onboard. This combination has a specific fuel consumption of \qty{9.9e-5}{\per\s}. Since hydrogen is very low density, only 10 \% of the aircraft's weight at takeoff is fuel. It has an \( L/D \) of 20 and files at \qty{200}{\m\per\s}. The gravity on Mars is \qty{3.721}{\m\per\s\squared}. Calculate the range of the aircraft.
+
+	\hwkSol{} \label{hwk:s04}
+
+	Answer
+
+\end{hwkProblem*}
 
 \end{document}
